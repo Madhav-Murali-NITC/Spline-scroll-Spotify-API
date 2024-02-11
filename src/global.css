@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Neue+Machina:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica+Now+Display:wght@100&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-helvetica-now-display: "Helvetica Now Display";
+  --font-neue-machina: "Neue Machina";
+
+  /* font sizes */
+  --font-size-78xl-4: 97.4px;
+
+  /* Colors */
+  --color-gainsboro: #d9d9d9;
+  --color-white: #fff;
+}

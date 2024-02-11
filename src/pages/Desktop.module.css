@@ -1,0 +1,164 @@
+.rectangleIcon,
+.v602Nunoon33Rippednotes1Icon {
+  position: absolute;
+  top: -8rem;
+  left: -5.125rem;
+  width: 100.25rem;
+  height: 75.438rem;
+  object-fit: cover;
+
+}
+
+.rectangleIcon{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height:200vh;
+ margin-left: 10vh;
+margin-top: 10vh;
+ animation : pulse 0.8s infinite ease;
+
+
+}
+
+.audio,
+.visual {
+  position: absolute;
+  top: 716px;
+  left: 364px;
+  font-size: 350.5px;
+  mix-blend-mode: exclusion;
+  user-select: none;
+}
+.audio {
+  top: 183px;
+  left: -25px;
+  font-size: 331.7px;
+}
+.desktop1Child,
+.desktop1Item {
+  position: absolute;
+  top: 546.5px;
+  left: -90.7px;
+  width: 412.2px;
+  height: 450.3px;
+}
+.desktop1Item {
+  top: -10px;
+  left: 984px;
+  width: 631.4px;
+  height: 596.6px;
+  object-fit: contain;
+}
+.desktop1Inner,
+.rectangleDiv {
+  position: absolute;
+  top: 136px;
+  left: 1384px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 66, 66, 0.97),
+    rgba(66, 45, 200, 0.6)
+  );
+  width: 39px;
+  height: 437px;
+}
+.rectangleDiv {
+  top: 502px;
+  left: 18px;
+  width: 44px;
+  height: 471px;
+}
+.image1Icon {
+  position: absolute;
+  top: 389px;
+  left: 481px;
+  width: 477px;
+  height: 437.8px;
+  object-fit: cover;
+  display: none;
+}
+.div {
+  position: absolute;
+  top: 212px;
+  left: 974px;
+  font-size: 165.4px;
+  display: inline-block;
+  width: 84px;
+  height: 67px;
+}
+.contact,
+.text,
+.text1 {
+  position: absolute;
+  font-weight: 100;
+  font-family: var(--font-helvetica-now-display);
+}
+.contact {
+  top: 9px;
+  left: 1124px;
+  font-size: 84.4px;
+}
+.text,
+.text1 {
+  top: 0;
+  left: 1098px;
+}
+.text1 {
+  top: 246px;
+  left: 1124px;
+}
+.groupChild,
+.groupInner,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 131px;
+  height: 9.4px;
+}
+.groupInner,
+.groupItem {
+  top: 15.5px;
+}
+.groupInner {
+  top: 31px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 51px;
+  left: 50px;
+  width: 131px;
+  height: 40.4px;
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: #101010;
+  height: 2745px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-78xl-4);
+  color: var(--color-white);
+  font-family: var(--font-neue-machina);
+}
+
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(1.3);
+	}
+
+	60% {
+		transform: scale(1.25);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(1.3);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
