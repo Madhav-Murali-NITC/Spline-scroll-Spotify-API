@@ -5,7 +5,7 @@ import {useState,useEffect} from "react";
 
 const Desktop = () => {
   
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   const togglePlay = () => {
     console.log(isPlaying)
