@@ -2,17 +2,43 @@
   height:100vh;
 }
 
+.hero
+{
+    width: 100vw;
+    position: relative;
+    height: 100%;
+    font-size: var(--font-size-78xl-4);
+    color: var(--color-white);
+    font-family: var(--font-neue-machina);
 
-.rectangleIcon,
-.v602Nunoon33Rippednotes1Icon {
-  position: absolute;
-  top: -8rem;
-  left: -5.125rem;
-  width: 100.25rem;
-  height: 75.438rem;
-  object-fit: cover;
-
+    display:flex;
+    flex-wrap:wrap;
 }
+
+.audio
+{
+    height:20rem;
+    font-family:var(--font-neue-machina);
+    width:100%;
+}
+
+.audioText
+{
+    font-size: 10rem;
+}
+
+.visual
+{
+    text-align: right;
+    width:100%;
+}
+
+.visualText
+{
+    font-size:10rem;
+}
+
+.rectangleIcon
 
 .rectangleIcon{
  display:flex;
@@ -22,29 +48,6 @@
  margin-left: 10vh;
 margin-top: 10vh;
  animation : pulse 0.8s infinite ease-out;
-
-
-}
-
-.audio,
-.visual {
-  position: absolute;
-  top: 716px;
-  left: 364px;
-  font-size: 350.5px;
-  mix-blend-mode: exclusion;
-  user-select: none;
-}
-.audio {
-  top: 183px;
-  left: -25px;
-  font-size: 331.7px;
-  animation : fadeIn 1s ease-in-out 0s, slideRight 1s ease;
-}
-
-
-.visual{
-  animation: fadeIn 1s ease-in-out 0s, slideLeft 1s ease;
 }
 
 .desktop1Child,
@@ -154,17 +157,7 @@ margin-top: 10vh;
   width: 131px;
   height: 40.4px;
 }
-.desktop1 {
-  width: 100%;
-  position: relative;
-  background-color: #101010;
-  height: 2745px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-78xl-4);
-  color: var(--color-white);
-  font-family: var(--font-neue-machina);
-}
+
 
 
 
